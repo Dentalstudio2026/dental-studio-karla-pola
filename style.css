@@ -2182,3 +2182,43 @@ footer{
         width: 205px;
     }
 }
+/* ========================================
+   CORRECCIÓN FINAL DEL LOGO DEL HEADER
+======================================== */
+
+.site-header .brand.brand-official {
+    display: flex !important;
+    align-items: center !important;
+    width: 330px !important;
+    height: auto !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+    flex-shrink: 0 !important;
+    text-decoration: none !important;
+}
+
+.site-header .brand.brand-official .brand-official-image {
+    display: block !important;
+    width: 330px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    transform: none !important;
+    scale: 1 !important;
+    clip-path: none !important;
+}
+
+@media (max-width: 1100px) {
+    .site-header .brand.brand-official,
+    .site-header .brand.brand-official .brand-official-image {
+        width: 270px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .site-header .brand.brand-official,
+    .site-header .brand.brand-official .brand-official-image {
+        width: 190px !important;
+    }
+}
