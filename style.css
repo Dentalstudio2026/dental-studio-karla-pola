@@ -2226,3 +2226,19 @@ footer{
 .brand-official-image {
     mix-blend-mode: multiply !important;
 }
+/* ========================================
+   LOGO OFICIAL EN EL FOOTER
+======================================== */
+
+.footer-brand-logo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer-official-logo {
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
