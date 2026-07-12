@@ -2222,3 +2222,7 @@ footer{
         width: 190px !important;
     }
 }
+/* Hace que el fondo blanco del logo se mezcle con el fondo de la página */
+.brand-official-image {
+    mix-blend-mode: multiply !important;
+}
