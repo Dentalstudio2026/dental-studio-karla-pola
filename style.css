@@ -1984,7 +1984,68 @@ footer{
     transform: translateY(-2px);
     opacity: 0.9;
 }
+/* ========================================
+   DOCTOR CREDENTIALS
+======================================== */
 
+.dentista-info h2 em {
+    display: block;
+}
+
+.credentials-box {
+    margin: 30px 0;
+    padding: 28px;
+    border: 1px solid rgba(78, 64, 52, 0.12);
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.58);
+    box-shadow: 0 18px 40px rgba(78, 64, 52, 0.06);
+}
+
+.credentials-box h3 {
+    margin: 0 0 18px;
+    color: #4e4034;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.45rem;
+}
+
+.credentials-list {
+    display: grid;
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.credentials-list li {
+    position: relative;
+    padding-left: 28px;
+    color: #66594e;
+    line-height: 1.65;
+}
+
+.credentials-list li::before {
+    content: "✦";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #a78968;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+    .credentials-box {
+        padding: 22px 19px;
+        border-radius: 20px;
+    }
+
+    .credentials-box h3 {
+        font-size: 1.3rem;
+    }
+
+    .credentials-list li {
+        font-size: 0.96rem;
+    }
+}
 /* ========================================
    RESPONSIVE
 ======================================== */
