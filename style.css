@@ -2227,7 +2227,7 @@ footer{
     mix-blend-mode: multiply !important;
 }
 /* ========================================
-   LOGO OFICIAL EN EL FOOTER
+   LOGO OFICIAL EN EL FOOTER - TAMAÑO PEQUEÑO
 ======================================== */
 
 .footer-brand-logo {
@@ -2237,8 +2237,9 @@ footer{
 
 .footer-official-logo {
     display: block;
-    width: 180px;
-    max-width: 100%;
-    height: auto;
+    width: 210px;
+    height: 100px;
     object-fit: contain;
+    object-position: center;
+    mix-blend-mode: screen;
 }
