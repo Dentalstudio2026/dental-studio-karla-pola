@@ -2243,3 +2243,38 @@ footer{
     object-position: center;
     mix-blend-mode: screen;
 }
+/* ========================================
+   TAMAÑO FINAL DEL LOGO DEL FOOTER
+======================================== */
+
+footer .footer-brand {
+    width: auto !important;
+    max-width: 230px !important;
+}
+
+footer .footer-brand-logo {
+    display: inline-block !important;
+    width: 210px !important;
+    max-width: 210px !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+footer .footer-brand-logo .footer-official-logo {
+    display: block !important;
+    width: 210px !important;
+    max-width: 210px !important;
+    height: auto !important;
+    object-fit: contain !important;
+    transform: none !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 700px) {
+    footer .footer-brand,
+    footer .footer-brand-logo,
+    footer .footer-brand-logo .footer-official-logo {
+        width: 170px !important;
+        max-width: 170px !important;
+    }
+}
