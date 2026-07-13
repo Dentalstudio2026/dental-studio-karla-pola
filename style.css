@@ -2278,3 +2278,39 @@ footer .footer-brand-logo .footer-official-logo {
         max-width: 170px !important;
     }
 }
+/* ========================================
+   LOGO DEL FOOTER INTEGRADO AL DISEÑO
+======================================== */
+
+footer .footer-brand-logo {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 190px !important;
+    height: 120px !important;
+    padding: 14px !important;
+    border-radius: 18px !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    text-decoration: none !important;
+    overflow: hidden !important;
+}
+
+footer .footer-official-logo {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    margin: 0 !important;
+    transform: none !important;
+    mix-blend-mode: screen !important;
+    opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+    footer .footer-brand-logo {
+        width: 165px !important;
+        height: 105px !important;
+    }
+}
