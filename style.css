@@ -2323,3 +2323,60 @@ footer .footer-official-logo {
     object-fit: contain !important;
     filter: invert(1) !important;
 }
+/* ========================================
+   FOOTER LOGO - SHOW FULL IMAGE
+======================================== */
+
+footer .footer-brand {
+    width: auto !important;
+    max-width: 360px !important;
+}
+
+footer .footer-brand-logo {
+    display: block !important;
+    width: 280px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    padding: 0 !important;
+    margin: 0 0 28px 0 !important;
+
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+
+    overflow: visible !important;
+    line-height: 0 !important;
+}
+
+footer .footer-official-logo {
+    display: block !important;
+    width: 280px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+
+    object-fit: contain !important;
+    object-position: center !important;
+
+    transform: none !important;
+    scale: 1 !important;
+    clip-path: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+
+    filter: invert(1) !important;
+}
+
+@media (max-width: 700px) {
+    footer .footer-brand-logo,
+    footer .footer-official-logo {
+        width: 230px !important;
+    }
+}
