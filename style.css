@@ -2314,3 +2314,12 @@ footer .footer-official-logo {
         height: 105px !important;
     }
 }
+/* Logo transparente del footer */
+footer .footer-official-logo {
+    display: block !important;
+    width: 210px !important;
+    max-width: 210px !important;
+    height: auto !important;
+    object-fit: contain !important;
+    filter: invert(1) !important;
+}
